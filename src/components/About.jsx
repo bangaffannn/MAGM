@@ -38,7 +38,7 @@ const skillset = [
     "Version Control": ["Git", "GitHub"],
   },
   {
-    Testing: ["Playwright", "Postman", "Vitest", "Insomnia"],
+    "Testing": ["Playwright", "Postman", "Vitest", "Insomnia"],
   },
   {
     "Data Analysis and Visual": [
