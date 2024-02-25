@@ -25,11 +25,11 @@ const skillset = [
   {
     "Backend Development": [
       "MongoDB",
+      "Mongoose",
       "PostgreSQL",
       "NodeJS",
       "Express",
       "Axios",
-      "NestJS",
       "GraphQL",
       "Firebase",
     ],
@@ -38,7 +38,7 @@ const skillset = [
     "Version Control": ["Git", "GitHub"],
   },
   {
-    Testing: ["Playwright", "Postman", "Vitest"],
+    Testing: ["Playwright", "Postman", "Vitest", "Insomnia"],
   },
   {
     "Data Analysis and Visual": [
