@@ -5,6 +5,7 @@ import img2 from '../assets/logo/BNPB.png';
 import img3 from '../assets/logo/Kemendes.png';
 import img4 from '../assets/logo/Kemenkes.png';
 import img5 from '../assets/logo/DD.png';
+import img6 from '../assets/logo/drgirmalogo.png'
 
 const Work = () => {
   // Array of quotes
@@ -41,6 +42,7 @@ const Work = () => {
             <li><img className="w-auto h-32 text-md filter grayscale transition duration-300 hover:filter-none" src={img4} alt="" /></li>
             <li><img className="w-auto h-32 text-md filter grayscale transition duration-300 hover:filter-none" src={img2} alt="" /></li>
             <li><img className="w-auto h-32 text-md filter grayscale transition duration-300 hover:filter-none" src={img5} alt="" /></li>
+            <li><img className="w-auto h-32 text-md filter grayscale transition duration-300 hover:filter-none" src={img6} alt="" /></li>
           </ul>
         </div>
         <h1 className="flex justify-center items-center cursor-pointer text-3xl hover:scale-90 transition-transform ease-in font-bold mb-8 text-center">A Few Quotes That Inspire Me</h1>
