@@ -1,24 +1,27 @@
 import React from "react";
-// import Image from "../assets/avatar.svg";
-import Image from "../assets/site.jpg";
-
+import Video from "../assets/dark.mp4";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
-
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-
 import { fadeIn } from "../variants";
 
 const Banner = () => {
   return (
     <section
       id="banner"
-      className="min-h-[105vh] lg:min-h-[110vh] flex justify-center items-center"
+      className="min-h-[105vh] lg:min-h-[110vh] flex justify-center items-center relative overflow-hidden"
     >
-      <div className="container mx-auto mt-[160px] sm:mt-[120px]">
+      <video
+        autoPlay
+        loop
+        muted
+        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        src={Video}
+        type="video/mp4"
+      ></video>
+      <div className="container mx-auto mt-[160px] sm:mt-[120px] relative z-10">
         <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
-          {/* TEXT */}
           <div className="flex-1 text-center font-secondary lg:text-center">
             <motion.h1
               variants={fadeIn("up", 0.3)}
@@ -66,26 +69,6 @@ const Banner = () => {
               <span className="font-bold">Continous</span> learning | Teamwork |
               Think <span className="font-bold">different</span>
             </motion.p>
-            {/* <motion.div
-              variants={fadeIn("up", 0.5)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-              className="border flex justify-center gap-x-6 items-center mb-12 mx-auto lg:mx-0"
-            >
-              <a
-                href="https://wa.me/6289608725725"
-                className="text-purple-500 seticon"
-              >
-                Contact me
-              </a>
-              <a
-                href="https://wa.me/6289608725725"
-                className="text-purple-500 seticon"
-              >
-                My Portfolio
-              </a>
-            </motion.div> */}
             <motion.div
               variants={fadeIn("up", 0.5)}
               initial="hidden"
@@ -148,16 +131,6 @@ const Banner = () => {
               </a>
             </motion.div>
           </div>
-          {/* IMAGE */}
-          {/* <motion.div
-            variants={fadeIn("down", 0.5)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
-            className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]"
-          >
-            <img src={Image} alt="" />
-          </motion.div> */}
         </div>
       </div>
     </section>

@@ -6,12 +6,14 @@ import Banner from './components/Banner';
 import About from './components/About';
 import Services from './components/Services';
 import Work from './components/Work';
+import VideoBackground from './components/VidBackground';
 // import Contact from './components/Contact';
 
 export default function App() {
   return (
     <div className='bg-black bg-no-repeat bg-cover overflow-hidden'>
       {/* <Header /> */}
+      {/* <VideoBackground /> */}
       <Banner />
       <Nav />
       <About />
