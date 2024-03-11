@@ -20,36 +20,36 @@ import { IoLogoTableau } from "react-icons/io5";
 import Img1 from "../assets/backend.png";
 import Img2 from "../assets/NewsSentimentAnalysis.png";
 import Img3 from "../assets/SalesAnalysis.png";
-import Img4 from "../assets/GoogleAccountClone.png";
+import Img4 from "../assets/drgfe.png";
 import Img5 from "../assets/MobileApps.jpg";
-import Img6 from "../assets/playwright-test.png";
+import Img6 from "../assets/adfe.png";
 
-const project = [
-  {
-    name: "Development",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac lectus eget ex ultrices dictum vitae cursus mi. Proin aliquet egestas arcu ut dictum.",
-    Link: "Learn more",
-  },
-  {
-    name: "Digital Marketing",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac lectus eget ex ultrices dictum vitae cursus mi. Proin aliquet egestas arcu ut dictum.",
-    link: "Learn more",
-  },
-  {
-    name: "UI/UX Design",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac lectus eget ex ultrices dictum vitae cursus mi. Proin aliquet egestas arcu ut dictum.",
-    link: "Learn more",
-  },
-  {
-    name: "Product Branding",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac lectus eget ex ultrices dictum vitae cursus mi. Proin aliquet egestas arcu ut dictum.",
-    link: "Learn more",
-  },
-];
+// const project = [
+//   {
+//     name: "Development",
+//     description:
+//       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac lectus eget ex ultrices dictum vitae cursus mi. Proin aliquet egestas arcu ut dictum.",
+//     Link: "Learn more",
+//   },
+//   {
+//     name: "Digital Marketing",
+//     description:
+//       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac lectus eget ex ultrices dictum vitae cursus mi. Proin aliquet egestas arcu ut dictum.",
+//     link: "Learn more",
+//   },
+//   {
+//     name: "UI/UX Design",
+//     description:
+//       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac lectus eget ex ultrices dictum vitae cursus mi. Proin aliquet egestas arcu ut dictum.",
+//     link: "Learn more",
+//   },
+//   {
+//     name: "Product Branding",
+//     description:
+//       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac lectus eget ex ultrices dictum vitae cursus mi. Proin aliquet egestas arcu ut dictum.",
+//     link: "Learn more",
+//   },
+// ];
 
 export default function Services() {
   return (
@@ -102,11 +102,15 @@ export default function Services() {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-purple-500">Data Analysis and Visual</span>
+                <span className="text-purple-500">
+                  Data Analysis and Visual
+                </span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-xl text-white">News Article Sentiment Analysis</span>
+                <span className="text-xl text-white">
+                  News Article Sentiment Analysis
+                </span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-8 transition-all duration-700 z-50">
                 <span className="flex text-sm gap-x-2 text-white">
@@ -128,7 +132,9 @@ export default function Services() {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-purple-500">Data Analysis and Visual</span>
+                <span className="text-purple-500">
+                  Data Analysis and Visual
+                </span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
@@ -161,7 +167,9 @@ export default function Services() {
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-xl text-white">Google Account Project</span>
+                <span className="text-xl text-white">
+                  Dental Clinic Project
+                </span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-8 transition-all duration-700 z-50">
                 <span className="flex text-sm gap-x-2 text-white">
@@ -188,7 +196,9 @@ export default function Services() {
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-xl text-white">Mobile Apps Launching</span>
+                <span className="text-xl text-white">
+                  Mobile Apps Launching
+                </span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-8 transition-all duration-700 z-50">
                 <span className="flex text-sm gap-x-2 text-white">
@@ -215,12 +225,14 @@ export default function Services() {
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-xl text-white">Playwright Automation Testing</span>
+                <span className="text-xl text-white">Blogs page project</span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-8 transition-all duration-700 z-50">
                 <span className="flex text-sm gap-x-2 text-white">
-                  <BiLogoTypescript />
-                  <SiPlaywright />
+                  <IoLogoJavascript />
+                  <FaReact />
+                  <SiTailwindcss />
+                  <TbBrandFramerMotion />
                 </span>
               </div>
             </div>
