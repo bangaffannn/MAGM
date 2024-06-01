@@ -19,8 +19,8 @@ import { IoLogoTableau } from "react-icons/io5";
 
 import Img1 from "../assets/backend.png";
 import Img2 from "../assets/NewsSentimentAnalysis.png";
-import Img3 from "../assets/SalesAnalysis.png";
-import Img4 from "../assets/drgfe.png";
+import Img3 from "../assets/daunkari.png";
+import Img4 from "../assets/drgirma.png";
 import Img5 from "../assets/MobileApps.jpg";
 import Img6 from "../assets/adfe.png";
 
@@ -133,18 +133,19 @@ export default function Services() {
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
                 <span className="text-purple-500">
-                  Data Analysis and Visual
+                  Frontend Development
                 </span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-xl text-white">Data Sales Analysis</span>
+                <span className="text-xl text-white">Coffee Shop Platform</span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-8 transition-all duration-700 z-50">
                 <span className="flex text-sm gap-x-2 text-white">
-                  <FaPython />
-                  <SiJupyter />
-                  <IoLogoTableau />
+                  <IoLogoJavascript />
+                  <FaReact />
+                  <SiTailwindcss />
+                  <TbBrandFramerMotion />
                 </span>
               </div>
             </div>

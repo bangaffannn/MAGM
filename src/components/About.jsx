@@ -52,6 +52,18 @@ const skillset = [
       "Tableau",
     ],
   },
+  {
+    "Performance Marketing": [
+      "Search Engine Optimization",
+      "Search Engine Marketing",
+      "Google My Business",
+      "Google Tag Manager",
+      "Google Analytics",
+      "Google Ads",
+      "Marketplace Ads",
+      "Meta Ads",
+    ]
+  },
 ];
 
 const mappedSkillset = skillset.map((category) => {
